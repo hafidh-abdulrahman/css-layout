@@ -71,3 +71,9 @@ h1 {
     margin-bottom: auto;
 }
 
+.heading-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 1em;
+}

@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
-      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-      <header>
-        <nav>
-            <section class="topnav">
-                <h1 class="topnav-heading">Docplanner <span class="hide">Group<span></h1>
-                <ul>
-                    <a href="">About us</a></li>
-                    <a href="">Career</a></li>
-                    <a href="">Departments</a></li>
-                </ul>
-            </section>
-            <section class="heading-2">
-              <div>
-                <h1>Making the healthcare experience more human</h1>
-                <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p> 
-                <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
-              </div>
-            </section>
-            
-            <section class="heading-3">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-sm-4">
-                        <h3>For patients</h3>
-                        <p>Find a doctor, book a visit and solve any health-related doubt</p>
-                        <a href="">Choose country</a>
-                      </div>
-                      <div class="col-sm-4">
-                        <h3>For Doctors</h3>
-                        <p>Save time managing visits and cut no-shows by half</p>
-                        <a href="">Choose country</a>
-                      </div>
-                      <div class="col-sm-4">
-                        <h3>For clinic</h3>
-                        <p></p>
-                        <a href="">2 to 20 specialist</a>
-                        <a href="">more than 20 specialist</a>
-                      </div>
-                    </div>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>css-layout</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+  integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+        <section class="topnav">
+            <h1 class="topnav-heading">Docplanner <span class="hide">Group<span></h1>
+            <ul>
+                <a href="">About us</a></li>
+                <a href="">Career</a></li>
+                <a href="">Departments</a></li>
+            </ul>
+        </section>
+        <section class="heading-2">
+          <div>
+            <h1>Making the healthcare experience more human</h1>
+            <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p> 
+            <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+          </div>
+        </section>
+        
+        <section class="heading-3">
+                  <div class="first">
+                    <h3>For patients</h3>
+                    <p>Find a doctor, book a visit and solve any health-related doubt</p>
                   </div>
-            </section>
-    <script src="js/main.js"></script>
-  </body>
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose country
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Germany</a></li>
+                      <li><a href="#">USA</a></li>
+                      <li><a href="#">Dubai</a></li>
+                      <li><a href="#">Malaysia</a></li>
+                      <li><a href="#">Morroco</a></li>
+                      <li><a href="#">California</a></li>
+                      <li><a href="#">Argentina</a></li>
+                    </ul>
+                  </div>
+                  <div class="second">
+                    <h3>For Doctors</h3>
+                    <p>Save time managing visits and cut no-shows by half</p>
+                  </div>   
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose country
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Germany</a></li>
+                      <li><a href="#">Poland</a></li>
+                      <li><a href="#">Egypt</a></li>
+                      <li><a href="#">Malaysia</a></li>
+                      <li><a href="#">Switzerland</a></li>
+                      <li><a href="#">California</a></li>
+                    </ul>
+                  </div>
+                  <div class="third">
+                    <h3>For clinic</h3>
+                    <p></p>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">1 to 20 specialist
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Germany</a></li>
+                      <li><a href="#">USA</a></li>
+                      <li><a href="#">Dubai</a></li>
+                      <li><a href="#">Malaysia</a></li>
+                      <li><a href="#">Morroco</a></li>
+                      <li><a href="#">California</a></li>
+                    </ul>
+                  </div>
+                </section>
+<script src="js/main.js"></script>
+</body>
 </html>
